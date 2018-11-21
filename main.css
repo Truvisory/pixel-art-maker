@@ -36,20 +36,20 @@ h1, p {
 
 #canvas1 {
     background-color: red;
-    cursor: pointer;
 }
 
 #canvas2 {
     background-color: blue;
-    cursor: pointer;
 }
 
 #canvas3 {
     background-color: green;
-    cursor: pointer;
 }
 
 #canvas4 {  
     background-color: yellow;
-    cursor: pointer;
+}
+
+.cursor {
+    cursor: url(paintbrush-155536__340.png), auto;
 }
