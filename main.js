@@ -25,70 +25,51 @@ document.addEventListener("DOMContentLoaded", () => {
     var canvas8 = document.getElementById("canvas8");
     var canvas9 = document.getElementById("canvas9");
     var indicator = document.getElementById("indicator");
-    var cursor = document.getElementById("body");
     let color 
     canvas1.addEventListener("click", () => {
         color = "red"
         indicator.classList.toggle(color)
         indicator.classList.toggle("none")
-        cursor.classList.toggle("cursor")
-        cursor.classList.toggle("")
       })
     canvas2.addEventListener("click", () => {
         color = "blue"
         indicator.classList.toggle(color)
         indicator.classList.toggle("none")
-        cursor.classList.toggle("cursor")
-        cursor.classList.toggle("")
       })
     canvas3.addEventListener("click", () => {
         color = "green"
         indicator.classList.toggle(color)
         indicator.classList.toggle("none")
-        cursor.classList.toggle("cursor")
-        cursor.classList.toggle("")
       })
     canvas4.addEventListener("click", () => {
         color = "yellow"
         indicator.classList.toggle(color)
         indicator.classList.toggle("none")
-        cursor.classList.toggle("cursor")
-        cursor.classList.toggle("")
       })
     canvas5.addEventListener("click", () => {
         color = "orange"
         indicator.classList.toggle(color)
         indicator.classList.toggle("none")
-        cursor.classList.toggle("cursor")
-        cursor.classList.toggle("")
       })
     canvas6.addEventListener("click", () => {
         color = "purple"
         indicator.classList.toggle(color)
         indicator.classList.toggle("none")
-        cursor.classList.toggle("cursor")
-        cursor.classList.toggle("")
       })
     canvas7.addEventListener("click", () => {
         color = "brown"
         indicator.classList.toggle(color)
         indicator.classList.toggle("none")
-        cursor.classList.toggle("cursor")
-        cursor.classList.toggle("")
       })
     canvas8.addEventListener("click", () => {
         color = "black"
         indicator.classList.toggle(color)
         indicator.classList.toggle("none")
-        cursor.classList.toggle("cursor")
-        cursor.classList.toggle("")
       })
     canvas9.addEventListener("click", () => {
         color = "gray"
         indicator.classList.toggle(color)
         indicator.classList.toggle("none")
-        cursor.classList.toggle("cursor")
-        cursor.classList.toggle("")
       })    
     box1.addEventListener("click", () => {
         box1.classList.toggle(color)

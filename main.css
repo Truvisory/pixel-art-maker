@@ -2,6 +2,7 @@ body {
     background-image: url(561065-quarto.png);
     background-size: cover;
     background-repeat: no-repeat;
+    cursor: url(paintbrush-155536__340.png), auto;
 }
 
 h1, p {
@@ -117,8 +118,4 @@ h1, p {
 
 #indicator {
     background-color: none;
-}
-
-.cursor {
-    cursor: url(paintbrush-155536__340.png), auto;
 }
