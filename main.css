@@ -9,6 +9,11 @@ h1, p {
     text-align: center;
     font-family: 'Finger Paint', cursive;
 }
+
+.span {
+    background-color: white;
+}
+
 .box {
     border: 2px solid black;
     height: 40px;
@@ -23,7 +28,7 @@ h1, p {
 }
 
 .blank {
-    background-color: none;
+    background-color: inherit;
 }
 
 .red {
@@ -60,6 +65,10 @@ h1, p {
 
 .yellow {
     background-color: yellow;
+}
+
+.white {
+    background-color: white;
 }
 
 #canvas1 {
@@ -116,6 +125,8 @@ h1, p {
     width: 25px;
 }
 
-#indicator {
-    background-color: none;
+#canvas10 {  
+    background-color: white;
+    border-radius: 25px;
+    width: 25px;
 }
