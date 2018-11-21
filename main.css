@@ -1,5 +1,12 @@
+body {
+    background-image: url(561065-quarto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 h1, p {
     text-align: center;
+    font-family: 'Finger Paint', cursive;
 }
 .box {
     border: 2px solid black;
@@ -22,6 +29,26 @@ h1, p {
     background-color: red;
 }
 
+.orange {
+    background-color: orange;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.black {
+    background-color: black;
+}
+
+.gray {
+    background-color: gray;
+}
+
 .blue {
     background-color: blue;
 }
@@ -36,18 +63,60 @@ h1, p {
 
 #canvas1 {
     background-color: red;
+    border-radius: 25px;
+    width: 25px;
 }
 
 #canvas2 {
     background-color: blue;
+    border-radius: 25px;
+    width: 25px;
 }
 
 #canvas3 {
     background-color: green;
+    border-radius: 25px;
+    width: 25px;
 }
 
 #canvas4 {  
     background-color: yellow;
+    border-radius: 25px;
+    width: 25px;
+}
+
+#canvas5 {
+    background-color: orange;
+    border-radius: 25px;
+    width: 25px;
+}
+
+#canvas6 {
+    background-color: purple;
+    border-radius: 25px;
+    width: 25px;
+}
+
+#canvas7 {
+    background-color: brown;
+    border-radius: 25px;
+    width: 25px;
+}
+
+#canvas8 {  
+    background-color: black;
+    border-radius: 25px;
+    width: 25px;
+}
+
+#canvas9 {  
+    background-color: gray;
+    border-radius: 25px;
+    width: 25px;
+}
+
+#indicator {
+    background-color: none;
 }
 
 .cursor {
